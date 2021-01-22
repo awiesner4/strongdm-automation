@@ -1,0 +1,14 @@
+flowTemplate: kms
+organization: production
+orgProject: strongdm-kms-encryption-key
+
+terraform:
+  version: "0.14.5"
+kms:
+  region: "us-west-2"
+  kms_key_name: "strongdm-encryption-key"
+  ch_cloud: "aws"
+  ch_environment: "production"
+  ch_team: "galactic-empire"
+  ch_project: "saas"
+  ch_user: "automation"
