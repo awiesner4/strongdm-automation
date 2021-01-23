@@ -1,0 +1,17 @@
+flowTemplate: role
+organization: galaxy-demo
+orgProject: strongdm-role
+
+terraform:
+  version: "0.14.5"
+roles:
+  region: "us-west-2"
+  kms_key_account: "796319636790"
+  kms_key_id: "9ea8ea3e-af26-41e2-a176-ef7ce0213574"
+  asm_secret_account: "796319636790"
+  asm_secret_name: "strongdm.json"
+  ch_cloud: "aws"
+  ch_environment: "demo"
+  ch_team: "galactic-empire"
+  ch_project: "saas"
+  ch_user: "automation"

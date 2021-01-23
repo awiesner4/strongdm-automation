@@ -8,7 +8,7 @@ variable "ingress_rules" {
     cidr_block  = string
     description = string
   }))
-  default     = [
+  default = [
     {
       from_port   = 22
       to_port     = 22
@@ -25,13 +25,4 @@ variable "ingress_rules" {
     }
   ]
 }
-variable "global_tags" {
-  default = {
-    ch_cloud = "aws"
-    ch_environment = "devops"
-    ch_organization = "engineering"
-    ch_team = "galactic-empire"
-    ch_project = "saas"
-    ch_user = "automation"
-  }
-}
+variable "global_tags" {}

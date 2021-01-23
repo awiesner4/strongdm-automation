@@ -1,0 +1,17 @@
+flowTemplate: relay
+organization: devops
+orgProject: strongdm-relay
+
+terraform:
+  version: "0.14.5"
+relay:
+  provisio_version: "1.0.0"
+  region: "us-east-2"
+  aws_account: "devops"
+  ec2_keypair: "strongdm-relay"
+  dns_zone_name: "devops.galaxy"
+  ch_cloud: "aws"
+  ch_environment: "devops"
+  ch_team: "galactic-empire"
+  ch_project: "strongdm"
+  ch_user: "automation"

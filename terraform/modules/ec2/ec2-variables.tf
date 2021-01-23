@@ -1,29 +1,11 @@
-variable "provisio_version" {
-  default = "1.0.0"
-}
-variable "strongdmType" {
-  default = "relay"
-}
-
+variable "provisio_version" {}
+variable "strongdmType" {}
 variable "aws_account" {}
-
 variable "security_group_id" {}
-
 variable "dns_name" {}
-
 variable "zone_id" {}
-
 variable "region" {}
-
-variable "ec2_instance_name" {
-  type = string
-}
-
-variable "ec2_ssh_port" {
-  type    = number
-  default = 22
-}
-
+variable "ec2_instance_name" {}
 variable "ec2_instance_type" {
   type    = string
   default = "t3.medium"
@@ -65,16 +47,5 @@ variable "ec2_instance_profile" {
 }
 
 variable "vpc_id" {}
-
 variable "selected_subnets" {}
-
-variable "global_tags" {
-  default = {
-    ch_cloud = "aws"
-    ch_environment = "devops"
-    ch_organization = "engineering"
-    ch_team = "galactic-empire"
-    ch_project = "saas"
-    ch_user = "automation"
-  }
-}
+variable "global_tags" {}

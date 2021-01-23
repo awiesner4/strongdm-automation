@@ -6,7 +6,7 @@ resource "aws_route53_zone" "private" {
   name = var.dns_zone_name
 
   vpc {
-    vpc_id = var.vpc_id
+    vpc_id     = var.vpc_id
     vpc_region = var.region
   }
 

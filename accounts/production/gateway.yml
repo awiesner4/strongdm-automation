@@ -1,0 +1,17 @@
+flowTemplate: gateway
+organization: production
+orgProject: strongdm-gateway
+
+terraform:
+  version: "0.14.5"
+gateway:
+  provisio_version: "1.0.0"
+  region: "us-east-2"
+  hosted_zone_id: "Z01017261JSCVAKOK36SD"
+  aws_account: "production"
+  ec2_keypair: "strongdm-gateway"
+  ch_cloud: "aws"
+  ch_environment: "production"
+  ch_team: "galactic-empire"
+  ch_project: "strongdm"
+  ch_user: "automation"

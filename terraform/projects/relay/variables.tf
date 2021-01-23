@@ -1,0 +1,12 @@
+variable "aws_account" {}
+variable "region" {}
+variable "ec2_keypair" {}
+variable "provisio_version" {}
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "dns_zone_name" {}
+variable "ch_cloud" {}
+variable "ch_environment" {}
+variable "ch_team" {}
+variable "ch_project" {}
+variable "ch_user" {}
